@@ -26,3 +26,5 @@ change V --> Ctrl + X --> y
 Step 7 : Run the below command in the command prompt 
 Nohup command: 
 nohup streamlit run app.py --server.address=0.0.0.0 > streamlit.log 2>&1 &
+
+#sample
