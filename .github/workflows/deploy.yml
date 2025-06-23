@@ -6,7 +6,7 @@ on:
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest  # Change to 'self-hosted' if using EC2 runner
+    runs-on: self-hosted  # Change to 'self-hosted' if using EC2 runner
 
     steps:
       - name: Checkout code
